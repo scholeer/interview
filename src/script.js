@@ -11,11 +11,11 @@ function compare(valueA, valueB, row, order) {
   divA = document.getElementById("detailA__" + row);
   divB = document.getElementById("detailB__" + row);
   if (valueA * order > valueB * order) {
-    divA.style.backgroundColor = "red";
-    divB.style.backgroundColor = "green";
+    divA.style.backgroundColor = "rgb(255, 129, 129)";
+    divB.style.backgroundColor = "rgb(129, 255, 161)";
   } else {
-    divA.style.backgroundColor = "green";
-    divB.style.backgroundColor = "red";
+    divA.style.backgroundColor = "rgb(129, 255, 161)";
+    divB.style.backgroundColor = "rgb(255, 129, 129)";
   }
 }
 function handleComparison() {
